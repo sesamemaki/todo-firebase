@@ -15,7 +15,7 @@ const Todo = ({ todo, toggleComplete, deleteTodo }) => {
       <div className={style.row}>
         <input
           type="checkbox"
-          checked={todo.completed ? "checked" : ""}
+          checked={todo.completed !== true ? false : true}
           onChange={() => toggleComplete(todo)}
         />
         <p
