@@ -1,3 +1,5 @@
+Live Link: https://quiet-frangollo-3e8e2a.netlify.app/
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
