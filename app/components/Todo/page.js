@@ -1,5 +1,3 @@
-"use client";
-
 import { FaRegTrashAlt } from "react-icons/fa";
 
 const style = {
