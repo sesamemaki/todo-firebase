@@ -1,3 +1,4 @@
+"use client";
 import { FaRegTrashAlt } from "react-icons/fa";
 
 const style = {
@@ -15,7 +16,7 @@ const Todo = ({ todo, toggleComplete, deleteTodo }) => {
       <div className={style.row}>
         <input
           type="checkbox"
-          checked={todo.completed !== true ? false : true}
+          checked={todo.completed ? "checked" : ""}
           onChange={() => toggleComplete(todo)}
         />
         <p
