@@ -6,7 +6,7 @@ import { AiOutlinePlus } from "react-icons/ai";
 import { db } from "../app/src/firebase";
 import { query, collection, onSnapshot, updateDoc, doc, addDoc, deleteDoc } from "firebase/firestore";
 
-import Todo from "./components/Todo/todo";
+import Todo from "./components/todo.js";
 
 
 const style = {
